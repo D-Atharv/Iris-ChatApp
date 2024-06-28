@@ -9,7 +9,7 @@ const Middle = () => {
     };
 
     return (
-        <div className='p-4 pt-1 bg-c_line_gray '>
+        <div className='p-4 py-8 pb-10 bg-c_line_gray '>
             <div
                 className={`w-full bg-c_black rounded-xl shadow-c_blue shadow-md`}
                 style={containerStyle}>
