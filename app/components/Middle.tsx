@@ -2,7 +2,7 @@ import React from 'react';
 import Middle_Names from './Middle_Names';
 
 const Middle = () => {
-    const names = ['John', 'Jane', 'Doe', 'Atharv'];
+    const names = ['John', 'Jane', 'Doe', 'Atharv', 'James'];
     const containerStyle: React.CSSProperties = {
         maxHeight: '424px',
         overflowY: names.length > 4 ? 'scroll' : 'hidden',
