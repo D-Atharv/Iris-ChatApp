@@ -16,9 +16,9 @@ const Home = () => {
         <div className="grid lg:grid-cols-12 row-span-12 border-2 border-pink-700 lg-gap-x-4">
 
           <div className="col-span-4 grid grid-rows-12">
-            <div className="row-span-2 border-2 border-yellow-400 bg-yellow-400"><Left /></div>
-            <div className="row-span-8 border-2 border-yellow-400 bg-slate-900"><LeftName /></div>
-            <div className="row-span-2 border-2 border-yellow-400 bg-red-800"><LeftBottom /></div>
+            <div className="row-span-1 border-2 border-yellow-400 bg-yellow-400"><Left /></div>
+            <div className="row-span-10 border-2 border-yellow-400 bg-slate-900"><LeftName /></div>
+            <div className="row-span-1 border-2 border-yellow-400 bg-red-800"><LeftBottom /></div>
           </div>
 
           <div className="hidden lg-grid grid-rows-11 col-span-8">
