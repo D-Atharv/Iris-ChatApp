@@ -75,7 +75,7 @@ const LeftName: React.FC<MiddleProps> = ({ className }) => {
         if (window.innerWidth >= 640) { // 'xl' breakpoint
             setMaxVisibleNames(5);
         } else {
-            setMaxVisibleNames(4);
+            setMaxVisibleNames(5);
         }
     };
 
