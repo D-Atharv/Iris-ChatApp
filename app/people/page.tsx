@@ -94,7 +94,7 @@ const App = () => {
                 <div className='sticky top-0 w-screen z-10'><Header /></div>
 
                 <div className='grid lg:grid-cols-12 row-span-12'>
-                    <div className='col-span-4 grid grid-rows-10 xl:border-r-4 border-c_black'>
+                    <div className='col-span-4 grid grid-rows-10 xl:border-r-2  border-c_black'>
                         <div className='sticky top-0 row-span-1'><Left /></div>
                         <div className='row-span-7'><LeftName /></div>
                         <div className='sticky bottom-0 row-span-2'><Bottom /></div>
@@ -110,6 +110,9 @@ const App = () => {
         </>
     )
 }
+
+export default App
+
 
 export default App
 
